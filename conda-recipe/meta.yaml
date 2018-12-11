@@ -1,0 +1,16 @@
+package:
+  name: pkg_mario21ic
+  version: "0.1"
+
+source:
+  url: https://github.com/mario21ic/python-pkg-demo/releases/download/0.1/pkg_mario21ic-0.0.1.tar.gz
+  #md5: 0e6214c96cae6ce777e4b3cf29bbdaa9
+requirements:
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+test:
+  imports:
+    - pkg_mario21ic
